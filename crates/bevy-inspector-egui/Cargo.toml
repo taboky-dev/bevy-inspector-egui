@@ -33,7 +33,7 @@ bevy = [
 documentation = ["bevy_reflect/reflect_documentation"]
 
 # Show inspector UI for bevy_render types
-bevy_render = ["dep:bevy_render", "bevy_egui/render"]
+bevy_render = ["dep:bevy_render", "bevy_egui/render", "bevy_mesh/bevy_mikktspace"]
 # Show inspector UI for bevy_gizmos types
 bevy_gizmos = ["dep:bevy_gizmos"]
 # Show inspector UI for bevy_core_pipeline types
